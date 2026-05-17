@@ -344,6 +344,13 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-slate-200 mt-16 py-8 text-center text-sm text-slate-400">
+        <div className="flex items-center justify-center gap-4 mb-4">
+          <a href="/about" className="hover:text-slate-600 transition">About</a>
+          <span>·</span>
+          <a href="/privacy" className="hover:text-slate-600 transition">Privacy Policy</a>
+          <span>·</span>
+          <a href="/terms" className="hover:text-slate-600 transition">Terms of Service</a>
+        </div>
         <p>© 2026 AI Content Factory — Powered by DeepSeek AI</p>
       </footer>
     </div>
